@@ -1,0 +1,70 @@
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8f9ff;
+  }
+  
+  .login-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    width: 400px;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+  }
+  
+  p {
+    color: #777;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  .google-btn, .azure-btn {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .google-btn {
+    background: #f4f4ff;
+    color: #333;
+    border: 1px solid #ddd;
+  }
+  
+  .google-btn:hover {
+    background: #e0e0ff;
+  }
+  
+  .azure-btn {
+    background: #eef7ff;
+    color: #0078d4;
+    border: 1px solid #b0d4ff;
+  }
+  
+  .azure-btn:hover {
+    background: #d8edff;
+  }
+  
+  .icon {
+    width: 22px;
+    height: 22px;
+  }
+  
